@@ -1,0 +1,66 @@
+NLP Comparative Analysis Report
+===============================
+
+Files analyzed:
+- Text 1 - Tolkien Style: RJ_Tolkein.txt
+- Text 2 - Martin Style: RJ_Martin.txt
+- Text 3 - Lovecraft Style: RJ_Lovecraft.txt
+- Text 4 - Unknown Author: Martin.txt
+
+Text 1 - Tolkien Style
+----------------------
+File: RJ_Tolkein.txt
+Top 20 tokens: juliet (7), verona (5), amidst (5), romeo (5), lands (4), love (4), woven (3), fate (3), upon (3), discord (3), tragic (3), eternal (3), despair (3), among (2), ancient (2), threads (2), tapestry (2), fair (2), house (2), shadows (2)
+Top 20 stems: juliet (7), verona (5), amidst (5), romeo (5), land (4), love (4), woven (3), fate (3), upon (3), discord (3), tragic (3), etern (3), despair (3), sorrow (3), among (2), ancient (2), tale (2), thread (2), tapestri (2), fair (2)
+Top 20 lemmas: juliet (7), verona (5), amidst (5), romeo (5), land (4), love (4), woven (3), fate (3), upon (3), discord (3), tragic (3), eternal (3), despair (3), among (2), ancient (2), tale (2), thread (2), tapestry (2), fair (2), house (2)
+Named entity mentions: 23
+Unique named entities (8): Bereft, Friar Laurence, House Capulet, House Montague, Juliet, Lady Nurse, Romeo, Verona
+Top 15 trigrams: lands of verona (3), the wisdom of (2), wisdom of the (2), the lands of (2), the eternal night (2), the verdant lands (1), verdant lands of (1), of verona nestled (1), verona nestled among (1), nestled among rolling (1), among rolling hills (1), rolling hills and (1), hills and ancient (1), and ancient woods (1), ancient woods there (1)
+
+Text 2 - Martin Style
+---------------------
+File: RJ_Martin.txt
+Top 20 tokens: amidst (5), romeo (5), juliet (4), love (4), house (3), fate (3), city (2), verona (2), capulet (2), montague (2), passion (2), halls (2), twisted (2), ancient (2), thorns (2), houses (2), steeped (2), tragedy (2), conspired (2), met (2)
+Top 20 stems: hous (5), amidst (5), romeo (5), juliet (4), love (4), passion (3), fate (3), citi (2), verona (2), capulet (2), montagu (2), feud (2), hall (2), twist (2), ancient (2), thorn (2), whisper (2), secret (2), garden (2), steep (2)
+Top 20 lemmas: house (5), amidst (5), romeo (5), juliet (4), love (4), passion (3), fate (3), city (2), verona (2), capulet (2), montague (2), feud (2), hall (2), twisted (2), ancient (2), thorn (2), whisper (2), secret (2), garden (2), steep (2)
+Named entity mentions: 16
+Unique named entities (9): Capulet, Friar, House Capulet, House Montague, Juliet, Lawrence, Romeo, Romeo Montague, Verona
+Top 15 trigrams: the sprawling city (1), sprawling city of (1), city of verona (1), of verona where (1), verona where the (1), where the towering (1), the towering walls (1), towering walls of (1), walls of house (1), of house capulet (1), house capulet and (1), capulet and house (1), and house montague (1), house montague loomed (1), montague loomed over (1)
+
+Text 3 - Lovecraft Style
+------------------------
+File: RJ_Lovecraft.txt
+Top 20 tokens: cosmic (7), eldritch (5), amidst (5), juliet (5), romeo (5), ancient (4), fate (4), love (4), verona (3), whispers (3), forbidden (3), tale (3), bore (3), mortal (3), embrace (3), forces (3), city (2), echoed (2), pacts (2), tragedy (2)
+Top 20 stems: cosmic (7), eldritch (5), fate (5), amidst (5), juliet (5), romeo (5), ancient (4), mortal (4), love (4), verona (3), echo (3), whisper (3), forbidden (3), tale (3), bore (3), embrac (3), forc (3), citi (2), pact (2), tragedi (2)
+Top 20 lemmas: cosmic (7), eldritch (5), amidst (5), juliet (5), romeo (5), ancient (4), fate (4), mortal (4), love (4), verona (3), echo (3), whisper (3), forbidden (3), tale (3), bore (3), embrace (3), force (3), city (2), pact (2), tragedy (2)
+Named entity mentions: 15
+Unique named entities (7): Capulets, Juliet, Juliet Capulet, Montague, Romeo, Romeo Montague, Verona
+Top 15 trigrams: romeo and juliet (3), city of verona (2), the whispers of (2), bore witness to (2), witness to a (2), of a fate (2), embrace of a (2), ensnared in the (2), a tale of (2), tale of love (2), the hallowed city (1), hallowed city of (1), of verona where (1), verona where ancient (1), where ancient stones (1)
+
+Shared Subject Inference
+------------------------
+The three main texts are all retellings of Romeo and Juliet. The conclusion is supported by shared high-value terms and named entities such as: Romeo, Juliet, Verona.
+
+Text 4 - Unknown Author
+-----------------------
+File: Martin.txt
+Top 20 tokens: aldric (32), eyes (29), cold (20), alysanne (19), like (18), torran (17), could (17), said (14), voice (14), would (12), merek (12), sword (11), shadows (10), house (10), heart (10), darkness (10), still (10), edric (10), men (10), nightborn (10)
+Top 20 stems: aldric (32), eye (29), cold (20), alysann (19), like (18), torran (17), could (17), shadow (15), dark (15), voic (15), said (14), sword (13), would (12), merek (12), heart (11), come (11), hous (10), still (10), edric (10), men (10)
+Top 20 lemmas: aldric (32), eye (29), cold (20), alysanne (19), like (18), torran (17), could (17), voice (15), say (15), shadow (14), come (14), sword (13), would (12), merek (12), heart (11), stand (10), house (10), darkness (10), still (10), edric (10)
+Named entity mentions: 187
+Unique named entities (55): Abyss, Aldric, Aldric Stormborn, Alysanne, Bitter Peaks, Black Gate, Blackreach, Blood, Coldbane, Coldwater, ...
+Top 15 trigrams: the weight of (5), they spoke of (4), the hilt of (4), of ice and (4), for a moment (4), could feel the (4), she could feel (4), the night king (4), the heart of (3), said his voice (3), cold as the (3), the banners of (3), for years they (3), could feel their (3), at the edge (3)
+
+Authorship Inference For Text 4
+------------------------------
+The strongest trigram match for Martin.txt is Text 2 - Martin Style.
+
+Similarity scores:
+- Text 2 - Martin Style: shared trigram types = 6, weighted overlap = 6, Jaccard similarity = 0.0016
+  Shared examples: to mend the (1), the tale of (1), the heart of (1), in the shadows (1), in the heart (1)
+- Text 3 - Lovecraft Style: shared trigram types = 5, weighted overlap = 5, Jaccard similarity = 0.0013
+  Shared examples: the veil of (1), testament to the (1), echoed through the (1), amidst the labyrinthine (1), a testament to (1)
+- Text 1 - Tolkien Style: shared trigram types = 4, weighted overlap = 4, Jaccard similarity = 0.0011
+  Shared examples: testament to the (1), forged in the (1), blade forged in (1), a blade forged (1)
+
+Based on the trigram overlap, the unknown text was most likely written in the style of the author represented by Text 2 - Martin Style.
